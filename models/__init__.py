@@ -15,3 +15,6 @@ class Content(object):
 
 
 class Category(Content):
+
+    def a(self):
+        print("")
