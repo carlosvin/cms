@@ -10,4 +10,4 @@ class Server:
 if __name__ == 'main':
     server = Server()
     server.run()
-    print('exit')
+    print("exit")
