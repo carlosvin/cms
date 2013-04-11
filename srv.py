@@ -5,7 +5,7 @@ class Server:
         self.__test = "test"
 
     def run(self):
-        print('-- %s --', self.__test)
+        print('----')
 
 if __name__ == 'main':
     server = Server()
