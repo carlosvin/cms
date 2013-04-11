@@ -8,4 +8,5 @@ class Server:
         print('-- %s --', self.__test)
 
 if __name__ == 'main':
-    Server().run()
+    server = Server()
+    server.run()
