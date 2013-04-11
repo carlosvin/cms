@@ -9,7 +9,7 @@
     <file path="/Dummy.txt" changelist="68492097-450f-4f79-a6d9-7c7019bc4c07" time="1365718352982" ignored="false" />
     <file path="/models.py" changelist="68492097-450f-4f79-a6d9-7c7019bc4c07" time="1365718407245" ignored="false" />
     <file path="/srv.py" changelist="68492097-450f-4f79-a6d9-7c7019bc4c07" time="1365719284912" ignored="false" />
-    <file path="/__init__.py" changelist="68492097-450f-4f79-a6d9-7c7019bc4c07" time="1365719490346" ignored="false" />
+    <file path="/__init__.py" changelist="68492097-450f-4f79-a6d9-7c7019bc4c07" time="1365719564399" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="__init__.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="40" selection-start="122" selection-end="122" vertical-scroll-proportion="0.13227513">
+            <state line="10" column="8" selection-start="196" selection-end="196" vertical-scroll-proportion="0.26455027">
               <folding />
             </state>
           </provider>
@@ -322,7 +322,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="40" selection-start="122" selection-end="122" vertical-scroll-proportion="0.13227513">
+        <state line="10" column="8" selection-start="196" selection-end="196" vertical-scroll-proportion="0.26455027">
           <folding />
         </state>
       </provider>
