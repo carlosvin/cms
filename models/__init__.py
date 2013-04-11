@@ -4,10 +4,10 @@ __author__ = 'carlos'
 
 
 class Content(object):
-    def __init__(self, id, title):
+    def __init__(self, identif, title):
         """
 
-        :param id: content identifier
+        :param identif: content identifier
         :param title: content title
         """
         self._id, self._title = id, title
