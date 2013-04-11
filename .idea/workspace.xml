@@ -4,7 +4,6 @@
     <list default="true" id="68492097-450f-4f79-a6d9-7c7019bc4c07" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/__init__.py" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/models.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/__init__.py" afterPath="$PROJECT_DIR$/models/__init__.py" />
     </list>
     <ignored path="cms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +29,7 @@
       <file leaf-file-name="__init__.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.052910052">
+            <state line="4" column="21" selection-start="64" selection-end="68" vertical-scroll-proportion="0.105820104">
               <folding />
             </state>
           </provider>
@@ -323,7 +322,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.052910052">
+        <state line="4" column="21" selection-start="64" selection-end="68" vertical-scroll-proportion="0.105820104">
           <folding />
         </state>
       </provider>
