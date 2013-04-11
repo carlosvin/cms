@@ -37,7 +37,7 @@
       <file leaf-file-name="srv.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/srv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="127" selection-end="127" vertical-scroll-proportion="0.18518518">
+            <state line="10" column="7" selection-start="180" selection-end="180" vertical-scroll-proportion="0.26455027">
               <folding />
             </state>
           </provider>
@@ -308,7 +308,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/srv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="127" selection-end="127" vertical-scroll-proportion="0.18518518">
+        <state line="10" column="7" selection-start="180" selection-end="180" vertical-scroll-proportion="0.26455027">
           <folding />
         </state>
       </provider>
