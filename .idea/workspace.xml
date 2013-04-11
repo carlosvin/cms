@@ -8,7 +8,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="68492097-450f-4f79-a6d9-7c7019bc4c07" time="1365718352982" ignored="false" />
     <file path="/models.py" changelist="68492097-450f-4f79-a6d9-7c7019bc4c07" time="1365718407245" ignored="false" />
-    <file path="/srv.py" changelist="68492097-450f-4f79-a6d9-7c7019bc4c07" time="1365718567810" ignored="false" />
+    <file path="/srv.py" changelist="68492097-450f-4f79-a6d9-7c7019bc4c07" time="1365719284912" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="srv.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/srv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.18518518">
+            <state line="7" column="17" selection-start="127" selection-end="127" vertical-scroll-proportion="0.18518518">
               <folding />
             </state>
           </provider>
@@ -308,7 +308,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/srv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.18518518">
+        <state line="7" column="17" selection-start="127" selection-end="127" vertical-scroll-proportion="0.18518518">
           <folding />
         </state>
       </provider>
