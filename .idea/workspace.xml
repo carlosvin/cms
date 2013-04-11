@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68492097-450f-4f79-a6d9-7c7019bc4c07" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srv/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srv/__init__.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models.py" afterPath="$PROJECT_DIR$/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/srv.py" afterPath="$PROJECT_DIR$/srv.py" />
     </list>
     <ignored path="cms.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="68492097-450f-4f79-a6d9-7c7019bc4c07" time="1365718352982" ignored="false" />
     <file path="/models.py" changelist="68492097-450f-4f79-a6d9-7c7019bc4c07" time="1365718407245" ignored="false" />
+    <file path="/srv.py" changelist="68492097-450f-4f79-a6d9-7c7019bc4c07" time="1365718536226" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +28,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="19" selection-start="89" selection-end="89" vertical-scroll-proportion="0.06960557">
+            <state line="4" column="19" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="srv.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/srv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="24" selection-start="85" selection-end="85" vertical-scroll-proportion="0.06960557">
               <folding />
             </state>
           </provider>
@@ -52,6 +65,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/srv.py" />
       </list>
     </option>
   </component>
@@ -229,7 +243,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="89" selection-end="89" vertical-scroll-proportion="0.06960557">
+        <state line="4" column="19" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/srv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="24" selection-start="85" selection-end="85" vertical-scroll-proportion="0.06960557">
           <folding />
         </state>
       </provider>
