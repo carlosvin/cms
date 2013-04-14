@@ -10,8 +10,8 @@ class Content:
         :param identif: content identifier
         :param title: content title
         """
-        self._id, self._title = id, title
-        self._created = datetime.datetime.now()
+        self.id, self.title = id, title
+        self.created = datetime.datetime.now()
         self.description = desc
 
 
