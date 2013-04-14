@@ -7,9 +7,14 @@ try:
 except ImportError:
     import xml.etree.ElementTree as etree
     
-class CategoryXML:
-    @staticmethod
     
+class FactoryXMLContent:
+    
+    
+    
+class CategoryXML:
+    
+    def load(self):
     
 class ContentXML:
     """
