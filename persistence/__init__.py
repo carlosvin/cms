@@ -1,6 +1,7 @@
 from models import Content, Factory, Piece
 from settings.paths import CONTENT_FOLDER_NAME, CONTENT_PATH
 import os
+import logging
 try:
     from lxml import etree
 except ImportError:
@@ -37,7 +38,7 @@ class ContentXML:
             try:
                 load_piece(child, content)
             except e:
-                
+                logging.warning(e)
             
         return content
         
