@@ -36,7 +36,7 @@ class ContentXML:
         content = Factory.instantiate(content_id, root['title'], root['type'])
         for child in root:
             try:
-                load_piece(child, content)
+                ContentXML.load_piece(child, content)
             except e:
                 logging.warning(e)
             
