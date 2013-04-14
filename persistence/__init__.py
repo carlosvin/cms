@@ -30,5 +30,5 @@ class ContentXML:
         tree = etree.parse(os.CONTENT_PATH)
         
     @staticmethod 
-    def get_path():
+    def get_path(id):
         return os.path.join(CONTENT_PATH, id + '.xml')
