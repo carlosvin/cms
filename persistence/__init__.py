@@ -31,6 +31,8 @@ class ContentXML:
         content = Factory.instantiate(content_id, root['title'], root['type'])
         for child in root:
             child['id']
+            
+        return content
         
     @staticmethod 
     def get_path(content_id):
