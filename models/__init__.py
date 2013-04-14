@@ -20,6 +20,7 @@ class Category(Content):
         
         
 class Piece:
+    
     def __init__(self, data):
         if isinstance(data, Content):
             self.content = data
