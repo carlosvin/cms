@@ -1,4 +1,4 @@
-from models import Content, Factory, Piece
+from models import Content, Factory, Piece, Category
 from settings.paths import CONTENT_FOLDER_NAME, CONTENT_PATH
 import os
 import logging
@@ -26,15 +26,8 @@ class ContentXML:
         return p
         
     @staticmethod
-    def load_piece(child_element, content):
-        content_id = child_element['content_ref_id']
-        index = child_element['index']
-        if content_id:
-            content = ContentXML.load(content_id) 
-            p = Piece(content, index)
-        else:
-            p = Piece(child_element.text, index)
-        return p
+    def load_child_content(child_element, content):
+        if isinstance(content, Category):
         
         
     @staticmethod
