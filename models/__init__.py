@@ -13,7 +13,7 @@ class Content:
         self.id = id
         self.title = title
         self.created = datetime.datetime.now()
-        self.data = data
+        self.pieces = []
 
 
 class Category(Content):
