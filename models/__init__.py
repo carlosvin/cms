@@ -7,9 +7,7 @@ class Piece:
     
     def __init__(self, data):
         """
-        :param identif: content identifier
-        :param title: content title
-        :param data: the content data
+        :param data: Must be a Content object or a string
         """
         if isinstance(data, Content):
             self.content = data
