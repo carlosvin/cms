@@ -31,7 +31,7 @@ class ContentXML:
             p = Piece(content, index)
         else:
             p = Piece(child_element.text, index)
-        
+        return p
         
         
     @staticmethod
