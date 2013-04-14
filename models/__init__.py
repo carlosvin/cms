@@ -29,9 +29,15 @@ class Content:
         self.id = id
         self.title = title
         self.created = datetime.datetime.now()
-        self.pieces = {}
+        self.pieces = []
         
     def add_piece(self, order, piece):
+        p = self.pieces.get(order)
+        if p is None:
+            self.pieces[order] = piece
+            
+    def append_piece(self, piece):
+        self.pieces.append(piece)
 
 
 class Category(Content):
