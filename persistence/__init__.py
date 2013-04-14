@@ -15,9 +15,9 @@ class ContentXML:
     """
     Manage all persistence operations over a content
     """
+    def __init__(self):
+        self.content = None
 
-
-    @staticmethod
     def load_piece(child_element, content):
         content_id = child_element['content_ref_id']
         index = child_element['index']
