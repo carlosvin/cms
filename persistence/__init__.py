@@ -31,10 +31,8 @@ class ContentXML:
     def load_child_content(self, child_element):
         if isinstance(self.content, Category):
             CategoryXML.
-        
-        
-    @staticmethod
-    def load(content_id):
+
+    def load(self, content_id):
         """
         It returns a content object if it exists, else it raises an exception
         """
