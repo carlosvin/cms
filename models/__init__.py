@@ -12,6 +12,8 @@ class Piece:
         elif isinstance(data, str):
             self.content = None
             self.text = data
+        else:
+            raise 'Data only can be a Piece object or a string'
             
 
 class Content:
