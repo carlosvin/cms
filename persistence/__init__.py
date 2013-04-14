@@ -30,7 +30,8 @@ class ContentXML:
         root = tree.getroot()
         content = Factory.instantiate(content_id, root['title'], root['type'])
         for child in root:
-            child['id']
+            try:
+                load_piece(child)
             
         return content
         
