@@ -27,7 +27,7 @@ class ContentXML:
         content_id = child_element['content_ref_id']
         if content_id:
             content = ContentXML.load(content_id) 
-        p = Piece(data, index)
+            p = Piece(content, index)
         child_element['index']
         
         
