@@ -8,7 +8,7 @@ except ImportError:
     import xml.etree.ElementTree as etree
     
     
-class FactoryXMLContent:
+#class FactoryXMLContent:
     
     
 #    
