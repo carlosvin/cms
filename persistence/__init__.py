@@ -20,4 +20,7 @@ class ContentXML:
         else:
             raise 'Must be a models.Content instance'
         
-    def load(self, content):
+    def load(self, content_id):
+        """
+        It returns a content object if it exists, else it raises an exception
+        """
