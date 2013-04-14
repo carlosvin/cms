@@ -26,5 +26,5 @@ class ContentXML:
         """
         It returns a content object if it exists, else it raises an exception
         """
-        content_path = os.path.jo
+        content_path = os.path.join(CONTENT_PATH, content_id + '.xml')
         tree = etree.parse(os.CONTENT_PATH)
