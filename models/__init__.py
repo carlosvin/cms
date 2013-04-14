@@ -33,7 +33,7 @@ class Content:
         
     def add_piece(self, index, piece):
         self.pieces.insert(index, piece)
-
+        
     def append_piece(self, piece):
         self.pieces.append(piece)
 
