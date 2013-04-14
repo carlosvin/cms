@@ -28,7 +28,7 @@ class ContentXML:
         """
         tree = etree.parse(ContentXML.get_path(content_id))
         root = tree.getroot()
-        Factory.instantiate(content_id, root['title'], root['type'])
+        content = Factory.instantiate(content_id, root['title'], root['type'])
         for child in root:
             child
         
