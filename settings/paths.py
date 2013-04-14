@@ -7,5 +7,4 @@ Created on 14/04/2013
 import os
 
 CONTENT_FOLDER_NAME = 'contents'
-CONTENT_FILE_NAME = 'contents.xml'
-CONTENT_PATH = os.path.join(os.getcwd(), '..', CONTENT_FOLDER_NAME, CONTENT_FILE_NAME)
+CONTENT_PATH = os.path.join(os.getcwd(), '..', CONTENT_FOLDER_NAME)
