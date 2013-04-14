@@ -56,6 +56,7 @@ class Factory:
     @staticmethod
     def instantiate(c_id, title, type):
         if type == Category.__name__:
+            return Category(c_id, title)
         else:
             raise 'Unknown type ' + type
             
