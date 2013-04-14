@@ -5,10 +5,11 @@ __author__ = 'carlos'
 
 class Piece:
     
-    def __init__(self, data):
+    def __init__(self, data, index = None):
         """
         :param data: Must be a Content object or a string
         """
+        self.index = index
         if isinstance(data, Content):
             self.content = data
             self.text = None
