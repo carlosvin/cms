@@ -24,7 +24,7 @@ class Content:
         self.id = id
         self.title = title
         self.created = datetime.datetime.now()
-        self.pieces = []
+        self.pieces = {}
 
 
 class Category(Content):
