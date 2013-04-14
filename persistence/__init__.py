@@ -11,22 +11,21 @@ class ContentXML:
     """
     Manage all persistence operations over a content
     """
-    
-    def __init__(self, content):
-        if isinstance(content, Content):
-            self.content = content
-            try:
-                _load(content.id)
-            except:
-                _save(content)
-        else:
-            raise 'Must be a models.Content instance'
+#    
+#    def __init__(self, content):
+#        if isinstance(content, Content):
+#            self.content = content
+#            try:
+#                _load(content.id)
+#            except:
+#                _save(content)
+#        else:
+#            raise 'Must be a models.Content instance'
         
     def load(self, content_id):
         """
         It returns a content object if it exists, else it raises an exception
         """
-        content_path = os.path.join(CONTENT_PATH, content_id + '.xml')
         tree = etree.parse(ContentXML.get_path(content_id))
         
     @staticmethod 
