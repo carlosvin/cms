@@ -17,7 +17,7 @@ class Content:
 class Category(Content):
 
     def __init__(self):
-        
+        self.contents = set()
         
 class Piece:
     
