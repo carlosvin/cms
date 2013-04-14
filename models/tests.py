@@ -4,7 +4,7 @@ Created on 14/04/2013
 @author: carlos
 '''
 import unittest
-from models import Content
+from models import Content, Piece
 
 
 class TestContent(unittest.TestCase):
