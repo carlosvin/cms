@@ -3,7 +3,7 @@ import datetime
 __author__ = 'carlos'
 
 
-class Content(object):
+class Content:
     def __init__(self, identif, title):
         """
 
@@ -18,3 +18,5 @@ class Category(Content):
 
     def a(self):
         print("")
+        
+class Piece():
