@@ -26,12 +26,13 @@ class ContentXML:
     def load_piece(child_element, content):
         content_id = child_element['content_ref_id']
         if content_id:
-            content = 
+            content = load(content_id) 
         p = Piece(data, index)
         child_element['index']
         
         
-    def load(self, content_id):
+    @staticmethod
+    def load(content_id):
         """
         It returns a content object if it exists, else it raises an exception
         """
