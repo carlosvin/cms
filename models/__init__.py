@@ -55,5 +55,5 @@ class Category(Content):
 class Factory:
     
     @staticmethod
-    def create(self):
+    def instantiate(c_id, title):
         
