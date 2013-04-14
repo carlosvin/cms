@@ -25,6 +25,10 @@ class TestContent(unittest.TestCase):
         content2 = Content(2, 'Title2')
         content2.append_piece(Piece('piece text'))
         content2.append_piece(Piece(content1))
+        
+    def testEq(self):
+        content1 = Content(1,'asdf')
+        content2 = Content(1,'asdf')
 
 
 if __name__ == "__main__":
