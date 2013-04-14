@@ -38,7 +38,7 @@ class Content:
         self.pieces.append(piece)
     
     def __eq__(self, c):
-        self.id == c.id
+        return self.id == c.id
 
 
 class Category(Content):
