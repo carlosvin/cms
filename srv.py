@@ -7,7 +7,7 @@ class Server:
     def run(self):
         print('---dfgdfg-')
 
-if __name__ == 'main':
+if __name__ == '__main__':
     server = Server()
     server.run()
     print("exit")
