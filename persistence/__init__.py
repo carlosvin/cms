@@ -25,7 +25,7 @@ class ContentXML:
     @staticmethod
     def load_piece(child_element, content):
         content_id = child_element['content_ref_id']
-        child_element['index']
+        index = child_element['index']
         if content_id:
             content = ContentXML.load(content_id) 
             p = Piece(content, index)
