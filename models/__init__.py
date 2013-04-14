@@ -16,7 +16,7 @@ class Piece:
             self.content = None
             self.text = data
         else:
-            raise 'Data only can be a Piece object or a string'
+            raise 'Data argument only can be a Content object or a string'
             
 
 class Content:
