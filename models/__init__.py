@@ -6,6 +6,11 @@ __author__ = 'carlos'
 class Piece:
     
     def __init__(self, data):
+        """
+        :param identif: content identifier
+        :param title: content title
+        :param data: the content data
+        """
         if isinstance(data, Content):
             self.content = data
             self.text = None
