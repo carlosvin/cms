@@ -3,8 +3,19 @@ import datetime
 __author__ = 'carlos'
 
 
+class Piece:
+    
+    def __init__(self, data):
+        if isinstance(data, Content):
+            self.content = data
+            self.text = None
+        else:
+            self.content = None
+            self.text = data
+            
+
 class Content:
-    def __init__(self, identif, title, data):
+    def __init__(self, identif, title):
         """
         :param identif: content identifier
         :param title: content title
@@ -24,13 +35,3 @@ class Category(Content):
     def add(self, content):
         self.contents.add(content)
         
-        
-class Piece:
-    
-    def __init__(self, data):
-        if isinstance(data, Content):
-            self.content = data
-            self.text = None
-        else:
-            self.content = None
-            self.text = data
