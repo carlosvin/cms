@@ -30,6 +30,8 @@ class Content:
         self.title = title
         self.created = datetime.datetime.now()
         self.pieces = {}
+        
+    def add_piece(self, order, piece):
 
 
 class Category(Content):
