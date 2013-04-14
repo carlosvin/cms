@@ -39,7 +39,7 @@ class ContentXML:
                 ContentXML.load_piece(child, content)
             except Exception as e:
                 logging.warning(e)
-            
+        ContentXML.load_child_content(root, content)
         return content
         
     @staticmethod 
