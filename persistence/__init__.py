@@ -14,7 +14,7 @@ class ContentXML:
         if isinstance(content, Content):
             self.content = content
             try:
-                _load(content)
+                _load(content.id)
             except:
                 _save(content)
         else:
