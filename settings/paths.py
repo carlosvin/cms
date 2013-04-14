@@ -6,4 +6,5 @@ Created on 14/04/2013
 
 import os
 
-CONTENT = os.getcwd().os.path.join('../content')
+CONTENT_FOLDER_NAME = 'contetns'
+CONTENT = os.getcwd().os.path.join('../contents')
