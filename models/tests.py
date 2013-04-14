@@ -31,10 +31,11 @@ class TestContent(unittest.TestCase):
         content2 = Content(1,'asdf')
         self.assertEqual(content1, content2)
         
-        content2 = Content(1,'1234')
-        self.assertEqual(content1, content2)
+        content3 = Content(1,'1234')
+        self.assertEqual(content1, content3)
 
-
+        content4 = Content(2,'asdf')
+        self.assertNotEqual(content1, content3)
 
 if __name__ == "__main__":
     unittest.main()
