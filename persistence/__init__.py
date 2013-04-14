@@ -30,7 +30,7 @@ class ContentXML:
         root = tree.getroot()
         content = Factory.instantiate(content_id, root['title'], root['type'])
         for child in root:
-            child
+            child['id']
         
     @staticmethod 
     def get_path(content_id):
