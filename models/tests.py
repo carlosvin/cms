@@ -19,7 +19,7 @@ class TestContent(unittest.TestCase):
 
 
     def testCreate (self):
-        Content(1, 'Title')
+        Content content (1, 'Title')
 
 
 if __name__ == "__main__":
