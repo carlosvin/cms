@@ -6,7 +6,7 @@ Created on 14/04/2013
 import unittest
 
 
-class TestCreation(unittest.TestCase):
+class TestContent(unittest.TestCase):
 
 
     def setUp(self):
