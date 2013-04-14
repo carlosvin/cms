@@ -35,7 +35,7 @@ class TestContent(unittest.TestCase):
         self.assertEqual(content1, content3)
 
         content4 = Content(2,'asdf')
-        self.assertNotEqual(content1, content3)
+        self.assertNotEqual(content1, content4)
 
 if __name__ == "__main__":
     unittest.main()
