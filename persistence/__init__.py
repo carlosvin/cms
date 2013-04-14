@@ -36,6 +36,8 @@ class ContentXML:
         for child in root:
             try:
                 load_piece(child, content)
+            except e:
+                
             
         return content
         
