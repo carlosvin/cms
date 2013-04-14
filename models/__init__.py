@@ -4,7 +4,7 @@ __author__ = 'carlos'
 
 
 class Content:
-    def __init__(self, identif, title):
+    def __init__(self, identif, title, desc):
         """
 
         :param identif: content identifier
@@ -12,6 +12,7 @@ class Content:
         """
         self._id, self._title = id, title
         self._created = datetime.datetime.now()
+        self.description = desc
 
 
 class Category(Content):
