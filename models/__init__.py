@@ -22,6 +22,7 @@ class Category(Content):
     def add(self, content):
         self.contents.add(content)
         
+        
 class Piece:
     
     def __init__(self, data):
