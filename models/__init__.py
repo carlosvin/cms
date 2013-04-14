@@ -46,7 +46,7 @@ class Content:
 class Category(Content):
 
     def __init__(self, identif, title):
-        super(identif, title)
+        super().__init__(identif, title)
         self.contents = set()
         
     def add(self, content):
