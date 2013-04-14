@@ -11,10 +11,10 @@ except ImportError:
 class FactoryXMLContent:
     
     
-    
-class CategoryXML:
-    
-    def load(self):
+#    
+#class CategoryXML:
+#    
+#    def load(self):
     
 class ContentXML:
     """
