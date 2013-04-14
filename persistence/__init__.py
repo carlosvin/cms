@@ -9,6 +9,7 @@ class ContentXML:
     """
     Manage all persistence operations over a content
     """
+    
     def __init__(self, content):
         if isinstance(content, Content):
             self.content = content
