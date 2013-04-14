@@ -13,5 +13,11 @@ class ContentXML:
     def __init__(self, content):
         if isinstance(content, Content):
             self.content = content
+            try:
+                _load(content)
+            except:
+                _save(content)
         else:
             raise 'Must be a models.Content instance'
+        
+    def load(self, content):
