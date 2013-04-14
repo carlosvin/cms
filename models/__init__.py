@@ -52,3 +52,8 @@ class Category(Content):
     def add(self, content):
         self.contents.add(content)
         
+class Factory:
+    
+    @staticmethod
+    def create(self):
+        
