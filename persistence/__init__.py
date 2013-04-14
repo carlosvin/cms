@@ -41,11 +41,11 @@ class ContentXML:
         self.content = Factory.instantiate(content_id, root['title'], root['type'])
         for child in root:
             try:
-                ContentXML.load_piece(child, content)
+                ContentXML.load_piece(child)
             except Exception as e:
                 logging.warning(e)
-        ContentXML.load_child_content(root, content)
-        return content
+        ContentXML.load_child_content(root)
+
         
     @staticmethod 
     def get_path(content_id):
