@@ -16,7 +16,13 @@ class Content:
 
 class Category(Content):
 
-    def a(self):
-        print("")
+    def __init__(self):
         
-class Piece():
+        
+class Piece:
+    def __init__(self, data):
+        self.content, self.data = None, None
+        if isinstance(data, Content):
+            self.content = data
+        else:
+            self.text = data
