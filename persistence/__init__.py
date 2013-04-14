@@ -37,7 +37,7 @@ class ContentXML:
         for child in root:
             try:
                 ContentXML.load_piece(child, content)
-            except as e:
+            except Exception as e:
                 logging.warning(e)
             
         return content
