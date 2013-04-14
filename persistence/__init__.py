@@ -15,6 +15,7 @@ class ContentXML:
     """
     Manage all persistence operations over a content
     """
+    
     def __init__(self):
         self.content = None
 
