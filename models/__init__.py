@@ -55,5 +55,7 @@ class Category(Content):
 class Factory:
     
     @staticmethod
-    def instantiate(c_id, title):
+    def instantiate(c_id, title, type):
+        if type == Category.get_name():
+            
         
