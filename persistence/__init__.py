@@ -22,6 +22,10 @@ class ContentXML:
 #        else:
 #            raise 'Must be a models.Content instance'
         
+    def load_piece(self, child_element, content):
+        if piececontent.a
+        
+        
     def load(self, content_id):
         """
         It returns a content object if it exists, else it raises an exception
@@ -31,8 +35,7 @@ class ContentXML:
         content = Factory.instantiate(content_id, root['title'], root['type'])
         for child in root:
             try:
-                p = load_piece(child, content)
-                content.add_piece(p.index, p)
+                load_piece(child, content)
             
         return content
         
