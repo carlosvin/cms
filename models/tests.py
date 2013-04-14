@@ -19,8 +19,8 @@ class TestContent(unittest.TestCase):
 
 
     def testCreate (self):
-        content = Content (1, 'Title')
-        content.add_piece(Piece('2323'))
+        content1 = Content (1, 'Title')
+        content1.add_piece(Piece('2323'))
 
 
 if __name__ == "__main__":
