@@ -31,7 +31,7 @@ class ContentXML:
         content = Factory.instantiate(content_id, root['title'], root['type'])
         for child in root:
             try:
-                p = load_piece(child)
+                p = load_piece(child, content)
                 content.add_piece(p.index, p)
             
         return content
