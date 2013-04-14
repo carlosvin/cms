@@ -19,6 +19,9 @@ class Category(Content):
     def __init__(self):
         self.contents = set()
         
+    def add(self, content):
+        self.contents.add(content)
+        
 class Piece:
     
     def __init__(self, data):
