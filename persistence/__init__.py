@@ -1,4 +1,4 @@
-from models import Content
+from models import Content, Factory
 from settings.paths import CONTENT_FOLDER_NAME, CONTENT_PATH
 import os
 try:
@@ -28,8 +28,9 @@ class ContentXML:
         """
         tree = etree.parse(ContentXML.get_path(content_id))
         root = tree.getroot()
+        Factory.create(, root['type'])
         for child in root:
-            
+            child
         
     @staticmethod 
     def get_path(content_id):
