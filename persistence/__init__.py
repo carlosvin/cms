@@ -1,4 +1,5 @@
 from models import Content
+from settings.paths import CONTENT_FOLDER_NAME, CONTENT_PATH
 try:
     from lxml import etree
 except ImportError:
@@ -24,3 +25,4 @@ class ContentXML:
         """
         It returns a content object if it exists, else it raises an exception
         """
+        tree = etree.parse(CONT)
