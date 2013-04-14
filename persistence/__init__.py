@@ -18,7 +18,7 @@ class ContentXML:
     def __init__(self):
         self.content = None
 
-    def load_piece(child_element, content):
+    def load_piece(self, child_element):
         content_id = child_element['content_ref_id']
         index = child_element['index']
         if content_id:
