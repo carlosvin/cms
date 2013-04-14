@@ -28,3 +28,6 @@ class ContentXML:
         """
         content_path = os.path.join(CONTENT_PATH, content_id + '.xml')
         tree = etree.parse(os.CONTENT_PATH)
+        
+    @staticmethod 
+    def get_path():
