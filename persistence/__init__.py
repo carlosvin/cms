@@ -29,6 +29,8 @@ class ContentXML:
         if content_id:
             content = ContentXML.load(content_id) 
             p = Piece(content, index)
+        else:
+            p = Piece(child_element.text, index)
         
         
         
