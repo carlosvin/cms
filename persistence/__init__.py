@@ -34,9 +34,9 @@ class ContentXML:
             p = Piece(child_element.text, index)
         return p
         
-    def load_child_content(self, child_element):
-        if isinstance(self.content, Category):
-            CategoryXML.
+#    def load_child_content(self, child_element):
+#        if isinstance(self.content, Category):
+#            CategoryXML.
 
     def load(self, content_id):
         """
