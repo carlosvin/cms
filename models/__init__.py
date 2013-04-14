@@ -41,7 +41,7 @@ class Content:
         return self.id == c.id
     
     def __ne__(self, c):
-        return self.id != c.id
+        return self.id <> c.id
 
 
 class Category(Content):
