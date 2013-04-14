@@ -21,8 +21,9 @@ class Category(Content):
         
 class Piece:
     def __init__(self, data):
-        self.content, self.data = None, None
         if isinstance(data, Content):
             self.content = data
+            self.text = None
         else:
+            self.content = None
             self.text = data
