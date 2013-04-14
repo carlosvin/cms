@@ -43,7 +43,6 @@ class Content:
     def __ne__(self, c):
         return self.id is not c.id
 
-
 class Category(Content):
 
     def __init__(self):
@@ -56,6 +55,6 @@ class Factory:
     
     @staticmethod
     def instantiate(c_id, title, type):
-        if type == Category.get_name():
+        if type == Category.__name__
             
         
