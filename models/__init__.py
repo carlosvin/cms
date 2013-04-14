@@ -9,7 +9,7 @@ class Piece:
         if isinstance(data, Content):
             self.content = data
             self.text = None
-        else:
+        elif isinstance(data, str):
             self.content = None
             self.text = data
             
