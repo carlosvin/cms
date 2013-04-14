@@ -31,11 +31,9 @@ class Content:
         self.created = datetime.datetime.now()
         self.pieces = []
         
-    def add_piece(self, order, piece):
-        p = self.pieces.get(order)
-        if p is None:
-            self.pieces[order] = piece
-            
+    def add_piece(self, index, piece):
+        self.pieces.insert(index, piece)
+
     def append_piece(self, piece):
         self.pieces.append(piece)
 
