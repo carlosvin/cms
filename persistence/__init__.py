@@ -31,3 +31,4 @@ class ContentXML:
         
     @staticmethod 
     def get_path():
+        return os.path.join(CONTENT_PATH, id + '.xml')
