@@ -7,4 +7,5 @@ except ImportError:
 class ContentXML:
     
     def __init__(self, content):
-        if isinstance(content, Content)
+        if isinstance(content, Content):
+            self.content = content
