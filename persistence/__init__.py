@@ -1,4 +1,4 @@
-from models import Content, Factory
+from models import Content, Factory, Piece
 from settings.paths import CONTENT_FOLDER_NAME, CONTENT_PATH
 import os
 try:
@@ -21,9 +21,14 @@ class ContentXML:
 #                _save(content)
 #        else:
 #            raise 'Must be a models.Content instance'
-        
-    def load_piece(self, child_element, content):
-        if piececontent.a
+
+    @staticmethod
+    def load_piece(child_element, content):
+        content_id = child_element['content_ref_id']
+        if content_id:
+            content = 
+        p = Piece(data, index)
+        child_element['index']
         
         
     def load(self, content_id):
