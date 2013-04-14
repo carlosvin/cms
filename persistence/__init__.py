@@ -28,9 +28,8 @@ class ContentXML:
             p = Piece(child_element.text, index)
         return p
         
-    @staticmethod
-    def load_child_content(child_element, content):
-        if isinstance(content, Category):
+    def load_child_content(self, child_element):
+        if isinstance(self.content, Category):
             CategoryXML.
         
         
