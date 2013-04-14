@@ -6,11 +6,11 @@ __author__ = 'carlos'
 class Content:
     def __init__(self, identif, title, desc):
         """
-
         :param identif: content identifier
         :param title: content title
         """
-        self.id, self.title = id, title
+        self.id = id
+        self.title = title
         self.created = datetime.datetime.now()
         self.description = desc
 
