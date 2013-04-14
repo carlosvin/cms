@@ -7,6 +7,9 @@ try:
 except ImportError:
     import xml.etree.ElementTree as etree
     
+class CategoryXML:
+    @staticmethod
+    
     
 class ContentXML:
     """
@@ -28,6 +31,7 @@ class ContentXML:
     @staticmethod
     def load_child_content(child_element, content):
         if isinstance(content, Category):
+            CategoryXML.
         
         
     @staticmethod
@@ -37,7 +41,7 @@ class ContentXML:
         """
         tree = etree.parse(ContentXML.get_path(content_id))
         root = tree.getroot()
-        content = Factory.instantiate(content_id, root['title'], root['type'])
+        self.content = Factory.instantiate(content_id, root['title'], root['type'])
         for child in root:
             try:
                 ContentXML.load_piece(child, content)
