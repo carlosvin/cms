@@ -7,4 +7,4 @@ Created on 14/04/2013
 import os
 
 CONTENT_FOLDER_NAME = 'contents'
-CONTENT = os.getcwd().os.path.join('..').join(CONTENT_FOLDER_NAME)
+CONTENT_PATH = os.getcwd().os.path.join('..').join(CONTENT_FOLDER_NAME)
