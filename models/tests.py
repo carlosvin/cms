@@ -30,6 +30,10 @@ class TestContent(unittest.TestCase):
         content1 = Content(1,'asdf')
         content2 = Content(1,'asdf')
         self.assertEqual(content1, content2)
+        
+        content2 = Content(1,'1234')
+        self.assertEqual(content1, content2)
+
 
 
 if __name__ == "__main__":
