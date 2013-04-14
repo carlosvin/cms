@@ -11,16 +11,7 @@ class ContentXML:
     """
     Manage all persistence operations over a content
     """
-#    
-#    def __init__(self, content):
-#        if isinstance(content, Content):
-#            self.content = content
-#            try:
-#                _load(content.id)
-#            except:
-#                _save(content)
-#        else:
-#            raise 'Must be a models.Content instance'
+
 
     @staticmethod
     def load_piece(child_element, content):
